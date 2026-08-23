@@ -1,0 +1,22 @@
+{
+  "name": "Mirashya Homes",
+  "avatar": "/images/avatars/host.jpeg",
+  "badge": "Host",
+  "reviewsCount": 1463,
+  "rating": 4.68,
+  "yearsHosting": 2,
+  "bornIn": "Born in the 80s",
+  "school": "Where I went to school: NICMAR GOA",
+  "responseRate": 100,
+  "responseTime": "within an hour",
+  "coHosts": [
+    { "name": "Sharath", "avatar": "/images/avatars/co1.jpg" },
+    { "name": "Aman Dev Pahwa", "avatar": "/images/avatars/co2.jpg" },
+    { "name": "Maria Karen Priyanka", "avatar": "/images/avatars/co3.jpg" },
+    { "name": "Simran", "avatar": "/images/avatars/rev2.jpeg" },
+    { "name": "Pallavi", "avatar": "/images/avatars/rev4.jpeg" },
+    { "name": "Sanyukta", "avatar": "/images/avatars/rev3.jpeg" },
+    { "name": "Shruti", "avatarInitial": "S", "avatarBg": "#FCE4EC", "avatarTextColor": "#D81B60" },
+    { "name": "Amisha", "avatarInitial": "A", "avatarBg": "#E3F2FD", "avatarTextColor": "#1976D2" }
+  ]
+}

@@ -1,0 +1,13 @@
+.starRating {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.filled {
+  color: var(--color-text-primary);
+}
+
+.empty {
+  color: var(--color-border);
+}

@@ -1,0 +1,93 @@
+.lightboxOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-lightbox);
+  background-color: var(--color-bg-overlay-dark);
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  animation: fadeIn var(--transition-fast) forwards;
+}
+
+.topBar {
+  height: 64px;
+  padding: 0 var(--space-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.closeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 8px 12px;
+  border-radius: var(--border-radius-md);
+  color: #FFFFFF;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  background: transparent;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.closeBtn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.counter {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.mainView {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-xl);
+  position: relative;
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  z-index: 10;
+}
+
+.navBtn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.imageStage {
+  max-width: 80%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageStage img {
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: var(--border-radius-sm);
+}
+
+.photoCaption {
+  margin-top: var(--space-md);
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}

@@ -1,0 +1,233 @@
+.locationSectionContainer {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  text-align: left;
+}
+
+.sectionHeaderBox {
+  margin-bottom: 24px;
+}
+
+.sectionTitleHeader {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  letter-spacing: -0.025em;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 640px) {
+  .sectionTitleHeader {
+    font-size: 24px;
+  }
+}
+
+.locationSubText {
+  font-size: 16px;
+  font-weight: 400;
+  color: #374151;
+  margin-top: 4px;
+}
+
+/* Map Container */
+.mapCanvasWrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #e5efe5;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  user-select: none;
+}
+
+@media (min-width: 640px) {
+  .mapCanvasWrapper {
+    height: 450px;
+  }
+}
+
+.mapTransformStage {
+  position: absolute;
+  inset: 0;
+  transition: transform 300ms ease-out;
+}
+
+.svgMapGraphic {
+  width: 100%;
+  height: 100%;
+}
+
+.centerPinPositioner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outerGlowPulseRing {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.4;
+  }
+}
+
+.homeIconBadgeCircle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #111827;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.homeIconBadgeCircle:hover {
+  transform: scale(1.1);
+}
+
+/* Map Controls */
+.mapSearchControlBtn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E5E7EB;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.mapSearchControlBtn:hover {
+  background-color: #F9FAFB;
+}
+
+.zoomControlsVerticalStack {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.zoomControlButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1F2937;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.zoomControlsVerticalStack > .zoomControlButton:not(:last-child) {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.zoomControlButton:hover {
+  background-color: #F9FAFB;
+}
+
+/* Disclaimer text */
+.exactLocationDisclaimerText {
+  font-size: 13px;
+  color: #4B5563;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 640px) {
+  .exactLocationDisclaimerText {
+    font-size: 14px;
+  }
+}
+
+/* Neighbourhood highlights */
+.neighbourhoodDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  margin-bottom: var(--space-xl);
+}
+
+.neighbourhoodTitleText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.neighbourhoodDescriptionText {
+  font-size: 14px;
+  line-height: 1.625;
+  color: #374151;
+  font-weight: 400;
+  max-width: 650px;
+}
+
+@media (min-width: 640px) {
+  .neighbourhoodDescriptionText {
+    font-size: 16px;
+  }
+}
+
+.showMoreDetailsBtn {
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  transition: color 0.15s ease;
+}
+
+.showMoreDetailsBtn:hover {
+  color: #000000;
+}

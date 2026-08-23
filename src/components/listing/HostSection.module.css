@@ -1,0 +1,285 @@
+.section {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 28px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 64px;
+  margin-bottom: var(--space-xl);
+}
+
+@media (max-width: 900px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+.leftCardCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Host Card: 2-column horizontal card */
+.hostCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 24px 20px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #EBEBEB;
+}
+
+.hostCardLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-right: 16px;
+}
+
+.avatarWrapper {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.avatarCircle {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #124E3F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.avatarPhoto {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.verifiedBadge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #E51E54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #FFFFFF;
+}
+
+.avatarLogoText {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.avatarLogoSub {
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  opacity: 0.9;
+}
+
+.hostName {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+
+.hostBadgeText {
+  font-size: 13px;
+  font-weight: 400;
+  color: #717171;
+}
+
+.hostCardRightStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+.statBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.statNum {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  line-height: 1.2;
+}
+
+.statLabel {
+  font-size: 12px;
+  font-weight: 400;
+  color: #717171;
+  margin-top: 2px;
+}
+
+.statHorizontalDivider {
+  height: 1px;
+  width: 100%;
+  background-color: #EBEBEB;
+  margin: 12px 0;
+}
+
+.personalInfoList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.infoIcon {
+  color: #222222;
+  flex-shrink: 0;
+}
+
+/* Right Details Column */
+.rightDetailsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.subHeading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 16px;
+}
+
+.coHostsSection {
+  margin-bottom: 8px;
+}
+
+.coHostsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .coHostsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.coHostItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.coHostAvatarImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.coHostAvatarCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.coHostName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+  line-height: 1.2;
+}
+
+.hostDetailsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.metaLine {
+  font-size: 15px;
+  color: #222222;
+  line-height: 1.5;
+}
+
+.messageHostBtn {
+  align-self: flex-start;
+  margin-top: 16px;
+  padding: 13px 24px;
+  border: 1px solid #EBEBEB;
+  border-radius: 12px;
+  background-color: #F7F7F7;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222222;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.messageHostBtn:hover {
+  background-color: #EEEEEE;
+  border-color: #DDDDDD;
+}
+
+.protectionSubtext {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #717171;
+}
+
+.shieldIcon {
+  color: #717171;
+  flex-shrink: 0;
+  margin-top: 2px;
+}

@@ -1,0 +1,83 @@
+{
+  "overallRating": 4.95,
+  "totalReviews": 19,
+  "categories": {
+    "cleanliness": 5.0,
+    "accuracy": 5.0,
+    "checkIn": 5.0,
+    "communication": 5.0,
+    "location": 4.8,
+    "value": 4.8
+  },
+  "pills": [
+    { "label": "Comfort", "count": 6, "icon": "🛋️" },
+    { "label": "Accuracy", "count": 5, "icon": "✅" },
+    { "label": "Hot tub", "count": 5, "icon": "🪵" },
+    { "label": "Condition", "count": 4, "icon": "🪣" },
+    { "label": "Hospitality", "count": 8, "icon": "🎁" },
+    { "label": "Cleanliness", "count": 4, "icon": "🧼" },
+    { "label": "Amenities", "count": 2, "icon": "🧺" }
+  ],
+  "items": [
+    {
+      "id": "r1",
+      "author": "Amit",
+      "avatarInitial": "A",
+      "avatarBg": "#F7E6D4",
+      "avatarTextColor": "#B45309",
+      "tenure": "2 months on Airbnb",
+      "date": "1 week ago",
+      "ratingText": "★★★★★",
+      "content": "Very helpful and responsive team. Safe and peaceful stay. loved everything about the property."
+    },
+    {
+      "id": "r2",
+      "author": "Aheesh",
+      "avatar": "/images/avatars/co1.jpg",
+      "tenure": "3 years on Airbnb",
+      "date": "2 weeks ago",
+      "ratingText": "★★★★★",
+      "content": "We had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.",
+      "hasShowMore": true
+    },
+    {
+      "id": "r3",
+      "author": "Samiksha",
+      "avatar": "/images/avatars/rev3.jpeg",
+      "tenure": "8 months on Airbnb",
+      "date": "May 2026",
+      "ratingText": "★★★★★",
+      "content": "the host nitish was really great help"
+    },
+    {
+      "id": "r4",
+      "author": "Vedant",
+      "avatarInitial": "V",
+      "avatarBg": "#EDE9FE",
+      "avatarTextColor": "#6D28D9",
+      "tenure": "4 years on Airbnb",
+      "date": "May 2026",
+      "ratingText": "★★★★★",
+      "content": "We had an amazing stay at this property in Goa! The entire home was spotless and exceptionally well-maintained, making us feel comfortable from the moment we arrived. The cleanliness standards were truly impressive, with every corner of the house...",
+      "hasShowMore": true
+    },
+    {
+      "id": "r5",
+      "author": "Vaibhav S",
+      "avatar": "/images/avatars/co2.jpg",
+      "tenure": "3 years on Airbnb",
+      "date": "May 2026",
+      "ratingText": "★★★★★",
+      "content": "Great great experience living out there , can't expect more , will always look for it in the future and will recommend my friends too."
+    },
+    {
+      "id": "r6",
+      "author": "Mohd",
+      "avatar": "/images/avatars/rev2.jpeg",
+      "tenure": "5 years on Airbnb",
+      "date": "May 2026",
+      "ratingText": "★★★★★",
+      "content": "Great place. Exactly as described in the listing."
+    }
+  ]
+}

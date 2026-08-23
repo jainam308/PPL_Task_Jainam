@@ -1,0 +1,185 @@
+.hostInfoSection {
+  width: 100%;
+}
+
+.propertyTitle {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-xxs);
+}
+
+.propertySpecs {
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-lg);
+}
+
+/* Guest Favourite Badge Card */
+.favoriteBadgeCard {
+  border: 1px solid var(--color-border-light);
+  border-radius: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xl);
+  background-color: #FFFFFF;
+}
+
+.cardLeftCol {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #222222;
+}
+
+.laurelGroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #222222;
+  flex-shrink: 0;
+}
+
+.laurelImgSmall {
+  width: 28px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.badgeTitleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #222222;
+}
+
+.cardMiddleText {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #222222;
+  max-width: 260px;
+}
+
+.cardRightCol {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ratingSubBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ratingVal {
+  font-size: 18px;
+  font-weight: 800;
+  color: #222222;
+  line-height: 1;
+}
+
+.starsRow {
+  display: flex;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+.colDivider {
+  width: 1px;
+  height: 36px;
+  background-color: var(--color-border-light);
+}
+
+.reviewsSubBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewsNum {
+  font-size: 18px;
+  font-weight: 800;
+  color: #222222;
+  line-height: 1;
+}
+
+.reviewsLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: #222222;
+  text-decoration: underline;
+  margin-top: 4px;
+}
+
+/* Host Header */
+.hostHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.hostAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hostTextGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.hostedBy {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.hostingTenure {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Highlights */
+.highlightsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.highlightItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+}
+
+.highlightIcon {
+  color: var(--color-text-primary);
+  margin-top: 2px;
+}
+
+.highlightContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlightTitle {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.highlightDesc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}

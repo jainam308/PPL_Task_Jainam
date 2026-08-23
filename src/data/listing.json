@@ -1,0 +1,98 @@
+{
+  "id": "mirashya-ug10",
+  "title": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10",
+  "location": "Candolim, Goa, India",
+  "shortLocation": "Candolim, India",
+  "type": "Entire serviced apartment",
+  "specs": {
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1
+  },
+  "rating": 4.95,
+  "reviewsCount": 19,
+  "isGuestFavorite": true,
+  "guestFavoriteText": "One of the most loved homes on Airbnb, according to guests",
+  "pricing": {
+    "pricePerNight": 5699,
+    "currency": "₹",
+    "nights": 5,
+    "totalPrice": 28499,
+    "cleaningFee": 1200,
+    "serviceFee": 1800
+  },
+  "defaultDates": {
+    "checkIn": "2026-10-18",
+    "checkOut": "2026-10-23",
+    "cancellationDeadline": "17 October"
+  },
+  "highlights": [
+    {
+      "id": "outdoor",
+      "icon": "Flame",
+      "title": "Outdoor entertainment",
+      "description": "The pool and alfresco dining are great for summer trips."
+    },
+    {
+      "id": "cooling",
+      "icon": "Fan",
+      "title": "Designed for staying cool",
+      "description": "Beat the heat with the A/C and ceiling fan."
+    },
+    {
+      "id": "checkin",
+      "icon": "DoorOpen",
+      "title": "Self check-in",
+      "description": "You can check in with the building staff."
+    }
+  ],
+  "description": "🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Homes! ✨ Stay in this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi 🛁 for the perfect unwind. Enjoy high-speed WiFi 💻, Smart TV 📺, pet-friendly comfort 🐾, and stylish interiors. Just minutes from Candolim Beach 🏖️, popular cafés, restaurants, and nightlife 🍹, it's ideal for couples seeking romance, relaxation, and a touch of luxury in North Goa. ❤️ 🌴",
+  "sleepingArrangements": [
+    {
+      "id": "bedroom-1",
+      "roomName": "Bedroom",
+      "bedType": "1 double bed",
+      "image": "/images/gallery/bedroom/bedroom-1.jpeg"
+    },
+    {
+      "id": "living-room",
+      "roomName": "Living room",
+      "bedType": "1 sofa",
+      "image": "/images/gallery/living-room-1/living-1-1.jpeg"
+    }
+  ],
+  "photos": [
+    {
+      "id": "p1",
+      "url": "/images/hero/photo1.jpeg",
+      "caption": "Private outdoor seating area with jacuzzi",
+      "category": "Patio & Jacuzzi",
+      "isHero": true
+    },
+    {
+      "id": "p2",
+      "url": "/images/hero/photo2.jpeg",
+      "caption": "Cozy patio lounge seating area",
+      "category": "Patio & Jacuzzi"
+    },
+    {
+      "id": "p3",
+      "url": "/images/hero/photo3.jpeg",
+      "caption": "Private wooden deck jacuzzi tub",
+      "category": "Patio & Jacuzzi"
+    },
+    {
+      "id": "p4",
+      "url": "/images/hero/photo4.jpeg",
+      "caption": "Sunlit bedroom with double bed and mirror",
+      "category": "Bedroom"
+    },
+    {
+      "id": "p5",
+      "url": "/images/hero/photo5.jpeg",
+      "caption": "Amor De Goa building exterior view",
+      "category": "Exterior"
+    }
+  ]
+}

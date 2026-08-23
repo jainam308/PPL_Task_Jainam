@@ -1,0 +1,155 @@
+.header {
+  position: relative;
+  z-index: var(--z-sticky);
+  background-color: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-border-light);
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1128px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 744px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+/* Logo */
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.logoSvg {
+  width: 32px;
+  height: 32px;
+}
+
+.logoText {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.5px;
+  color: var(--color-primary);
+}
+
+/* Search Pill */
+.searchPill {
+  display: flex;
+  align-items: center;
+}
+
+.searchButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 8px 10px 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 40px;
+  background-color: var(--color-bg-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow var(--transition-fast);
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.searchHouseImg {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 4px;
+}
+
+.searchSegmentBold {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.searchSegmentLight {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-secondary);
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--color-border-light);
+  margin: 0 var(--space-xs);
+}
+
+.searchIconCircle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #FF385C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+}
+
+/* Right Navigation */
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hostLink {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 22px;
+  color: #222222;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.hostLink:hover {
+  background-color: #F7F7F7;
+}
+
+.iconCircleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+  border: 1px solid #EBEBEB;
+  color: #222222;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.iconCircleBtn:hover {
+  background-color: #EEEEEE;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}

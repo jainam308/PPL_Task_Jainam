@@ -1,0 +1,106 @@
+[
+  {
+    "category": "Bathroom",
+    "items": [
+      { "id": "hairdryer", "name": "Hairdryer", "icon": "wind" },
+      { "id": "cleaning_products", "name": "Cleaning products", "icon": "sparkles" },
+      { "id": "shampoo", "name": "Shampoo", "icon": "droplet" },
+      { "id": "hot_water", "name": "Hot water", "icon": "thermometer" },
+      { "id": "shower_gel", "name": "Shower gel", "icon": "sparkle" }
+    ]
+  },
+  {
+    "category": "Bedroom and laundry",
+    "items": [
+      { "id": "washing_machine", "name": "Washing machine", "icon": "shirt" },
+      { "id": "hangers", "name": "Hangers", "icon": "hanger" },
+      { "id": "bed_linen", "name": "Bed linen", "icon": "bed" },
+      { "id": "blinds", "name": "Room-darkening blinds", "icon": "moon" },
+      { "id": "iron", "name": "Iron", "icon": "zap" },
+      { "id": "clothes_storage", "name": "Clothes storage", "icon": "box" },
+      { "id": "cot", "name": "Cot", "icon": "smile" }
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "items": [
+      { "id": "tv", "name": "TV", "icon": "tv" }
+    ]
+  },
+  {
+    "category": "Family",
+    "items": [
+      { "id": "family_cot", "name": "Cot", "icon": "smile" }
+    ]
+  },
+  {
+    "category": "Heating and cooling",
+    "items": [
+      { "id": "ac", "name": "Air conditioning", "icon": "wind" },
+      { "id": "ceiling_fan", "name": "Ceiling fan", "icon": "fan" }
+    ]
+  },
+  {
+    "category": "Home safety",
+    "items": [
+      { "id": "cameras", "name": "Exterior security cameras on property", "icon": "video" },
+      { "id": "co_alarm", "name": "Carbon monoxide alarm", "icon": "shield-off", "unavailable": true },
+      { "id": "smoke_alarm", "name": "Smoke alarm", "icon": "shield-off", "unavailable": true }
+    ]
+  },
+  {
+    "category": "Internet and office",
+    "items": [
+      { "id": "wifi", "name": "Wifi", "icon": "wifi" },
+      { "id": "workspace", "name": "Dedicated workspace", "icon": "laptop" }
+    ]
+  },
+  {
+    "category": "Kitchen and dining",
+    "items": [
+      { "id": "kitchen", "name": "Kitchen", "icon": "utensils" },
+      { "id": "fridge", "name": "Fridge", "icon": "archive" },
+      { "id": "freezer", "name": "Freezer", "icon": "snowflake" },
+      { "id": "microwave", "name": "Microwave", "icon": "box" },
+      { "id": "cooking_basics", "name": "Cooking basics", "icon": "utensils" },
+      { "id": "crockery", "name": "Crockery and cutlery", "icon": "utensils" },
+      { "id": "kettle", "name": "Kettle", "icon": "coffee" },
+      { "id": "coffee", "name": "Coffee", "icon": "coffee" },
+      { "id": "wine_glasses", "name": "Wine glasses", "icon": "wine" },
+      { "id": "toaster", "name": "Toaster", "icon": "box" },
+      { "id": "blender", "name": "Blender", "icon": "zap" },
+      { "id": "cooker", "name": "Cooker", "icon": "flame" }
+    ]
+  },
+  {
+    "category": "Location features",
+    "items": [
+      { "id": "entrance", "name": "Private entrance", "icon": "door" }
+    ]
+  },
+  {
+    "category": "Outdoor",
+    "items": [
+      { "id": "patio", "name": "Patio or balcony", "icon": "sun" },
+      { "id": "outdoor_dining", "name": "Outdoor dining area", "icon": "utensils" }
+    ]
+  },
+  {
+    "category": "Parking and facilities",
+    "items": [
+      { "id": "parking", "name": "Free parking on premises", "icon": "car" },
+      { "id": "pool", "name": "Pool", "icon": "waves" },
+      { "id": "hottub", "name": "Hot tub", "icon": "bath" },
+      { "id": "gym", "name": "Gym", "icon": "dumbbell" }
+    ]
+  },
+  {
+    "category": "Services",
+    "items": [
+      { "id": "pets", "name": "Pets allowed", "icon": "paw" },
+      { "id": "cleaning", "name": "Cleaning available during stay", "icon": "sparkles" },
+      { "id": "longterm", "name": "Long-term stays allowed", "icon": "calendar" },
+      { "id": "checkin", "name": "Self check-in", "icon": "key" }
+    ]
+  }
+]
