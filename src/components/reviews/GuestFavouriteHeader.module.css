@@ -24,9 +24,9 @@
 }
 
 .ratingNumber {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 800;
-  color: #111827;
+  color: #222222;
   line-height: 1;
   letter-spacing: -3px;
   font-family: inherit;
@@ -44,18 +44,17 @@
 }
 
 .title {
-  font-size: 26px;
-  font-weight: 700;
-  color: #111827;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222222;
   margin: 0 0 8px 0;
   line-height: 1.2;
-  letter-spacing: -0.3px;
 }
 
 .subtitle {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  color: #6b7280;
+  color: #717171;
   margin: 0 0 16px 0;
   max-width: 440px;
   line-height: 1.45;
@@ -66,7 +65,7 @@
   border: none;
   font-size: 14px;
   font-weight: 600;
-  color: #111827;
+  color: #222222;
   text-decoration: underline;
   text-underline-offset: 3px;
   cursor: pointer;

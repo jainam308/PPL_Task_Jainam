@@ -1,5 +1,7 @@
 # PlayPower Airbnb Clone — Final Submission
 
+**GitHub Repository**: [https://github.com/jainam308/PPL_Task_Jainam](https://github.com/jainam308/PPL_Task_Jainam)
+
 A pixel-perfect, high-fidelity desktop clone of an Airbnb listing page featuring a full property detail view, an interactive full-screen Photo Tour overlay, and a single-image Lightbox viewer with full keyboard navigation.
 
 Reference application: [https://airbnb-clone-umber-two.vercel.app](https://airbnb-clone-umber-two.vercel.app)
